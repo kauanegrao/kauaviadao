@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable, Logger } from '@nestjs/common';
 import { CreateScenarioDto } from '../dto/create-scenario.dto';
 import { CreateScenarioRepository } from '../repository/create-scenario.repository';

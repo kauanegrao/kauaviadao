@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Injectable, Logger, ServiceUnavailableException } from "@nestjs/common";
 import { ListScenarioRepository } from "../repository/list-scenario.repositry";
 
@@ -19,8 +20,7 @@ export class ListScenarioUseCase {
         } catch (err) {
         const error = new ServiceUnavailableException('error list Scenario', {
             cause: err,
-            description:
-            `Error on list post: ${err.message}` || 'Unknown error ocurred',
+            description: 'Unknown error ocurred',
         });
         this.logger.error(error.message, error.stack);
         throw error;

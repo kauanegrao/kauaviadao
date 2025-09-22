@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Global, Logger, Module } from '@nestjs/common';
 import { PrismaService } from './databases/prisma.database';
 

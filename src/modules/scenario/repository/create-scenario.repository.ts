@@ -1,6 +1,8 @@
-import { Injectable } from '@nestjs/common';
-import { PrismaService } from '../../../shared/databases/prisma.database';
-import { CreateScenarioDto } from '../dto/create-scenario.dto';
+/* eslint-disable prettier/prettier */
+import { Injectable } from "@nestjs/common";
+import { PrismaService } from "src/shared/databases/prisma.database";
+import { CreateScenarioDto } from "../dto/create-scenario.dto";
+
 
 @Injectable()
 export class CreateScenarioRepository {

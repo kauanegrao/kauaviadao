@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 
 import { Logger, Module } from '@nestjs/common';
 import { ScenarioService } from './scenario.service';
